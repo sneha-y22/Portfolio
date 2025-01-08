@@ -788,7 +788,8 @@ form textarea:hover {
         width: 100%;
     }
     .project_cont {
-        width: 70%;
+        width: 80%;
+        height: auto;
     }
     .btn{
         justify-content: center;
