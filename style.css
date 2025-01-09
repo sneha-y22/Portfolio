@@ -834,7 +834,7 @@ form textarea:hover {
     .projects .swiper-slide .layer h3 {
         font-weight: 475;
         font-size: 0.7rem;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
 
     .projects .swiper-slide .layer p {
@@ -843,7 +843,7 @@ form textarea:hover {
     }
 
     .projects .swiper-slide .layer a {
-        margin-top: 10px;
+        margin-top: 2px;
         font-size: 11px;
         line-height: 30px;
         width: 30px;
