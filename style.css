@@ -697,7 +697,7 @@ form textarea:hover {
     nav {
         position: relative;
         border-bottom: 1.5px solid rgb(255, 255, 255, 0.5);
-        height: 70px;
+        height: 75px;
     }
 
     .menu {
@@ -833,8 +833,8 @@ form textarea:hover {
     }
     .projects .swiper-slide .layer h3 {
         font-weight: 475;
-        font-size: 0.8rem;
-        margin-bottom: 8px;
+        font-size: 0.7rem;
+        margin-bottom: 5px;
     }
 
     .projects .swiper-slide .layer p {
