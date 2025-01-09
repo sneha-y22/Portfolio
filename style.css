@@ -683,9 +683,6 @@ form textarea:hover {
         border-bottom-left-radius: 30% 15%;
         border-bottom-right-radius: 35% 20%;
         background-size: cover;
-        background-position: 55% 55%;
-        background-position-y: top;
-        background-position-x: center;
     }
 
     nav {
