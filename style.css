@@ -820,8 +820,8 @@ form textarea:hover {
     }
     .projects .pre-btn,
     .projects .nxt-btn {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
     .projects .pre-btn img,
     .projects .nxt-btn img {
@@ -832,9 +832,9 @@ form textarea:hover {
         padding: 2%;
     }
     .projects .swiper-slide .layer h3 {
-        font-weight: 450;
-        font-size: 1.0rem;
-        margin-bottom: 10px;
+        font-weight: 475;
+        font-size: 0.8rem;
+        margin-bottom: 8px;
     }
 
     .projects .swiper-slide .layer p {
