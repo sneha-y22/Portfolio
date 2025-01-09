@@ -678,11 +678,11 @@ form textarea:hover {
 /* MQ section */
 @media (max-width: 900px) {
     header {
-        height: 90%;
+        height: auto;
         padding: 20px 5%;
         border-bottom-left-radius: 30% 15%;
         border-bottom-right-radius: 35% 20%;
-        background-size: 770px 625px;
+        background-size: cover;
         background-position: 55% 55%;
         background-position-y: top;
         background-position-x: center;
