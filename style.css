@@ -168,6 +168,7 @@ button:hover{
 .about{
     gap: 50px;
     flex-direction: column;
+    margin-top: 35px;
 }
 .about_top{
     width: 100%;
@@ -436,6 +437,7 @@ button:hover{
     background-color: #f1f2f9;
     padding: 3.5%;
     text-align: center;
+    margin-top: 35px;
 }
 
 .project_cont {
@@ -629,8 +631,8 @@ button:hover{
     width: 150px;
     height: 45px;
     border-radius: 10px;
-    border: 1px solid var(--prime-color);
-    background-color: #f7f4f4;
+    border: 1.2px solid var(--black-color);
+    background-color: #e8f0fa;
     color: var(--black-color);
     font-size: 1.0rem;
     transition: var(--transition);
@@ -639,6 +641,7 @@ button:hover{
 .sbt_btn:hover{
     background-color: var(--prime-color);
     color: white;
+    border: 1px solid var(--white-color);
 }
 
 form input,
@@ -679,7 +682,10 @@ form textarea:hover {
         padding: 20px 5%;
         border-bottom-left-radius: 30% 15%;
         border-bottom-right-radius: 35% 20%;
-        background-size: cover;
+        background-size: 770px 625px;
+        background-position: 55% 55%;
+        background-position-y: top;
+        background-position-x: center;
     }
 
     nav {
@@ -769,29 +775,61 @@ form textarea:hover {
         color: var(--white-color);
         transition: var(--transition);
     }
-    .bars:hover{
+    .bars:hover {
         background-color: var(--white-color);
         color: var(--prime-color);
     }
     .section,
-    .about_top{
+    .about_top {
         flex-direction: column;
     }
-    .exp_list{
+    .exp_list {
         display: flex;
         flex-direction: column;
         width: 80%;
     }
 
     .about_content,
-    .about_image{
+    .about_image {
         width: 100%;
     }
-    .project_cont {
-        width: 80%;
-        height: auto;
+    .education {
+        padding: 8%;
     }
-    .btn{
+    .timeline_items::before {
+        left: 7px;
+    }
+    .timeline_item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline_item:nth-child(odd),
+    .timeline_item:nth-child(even) {
+        padding-left: 37px;
+    }
+    .timeline_dot {
+        left: 0;
+    }
+    .project_cont {
+        width: 85%;
+    }
+    .layer h3 {
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .layer p {
+        font-size: 0.65rem;
+        font-weight: 300;
+    }
+    .layer a {
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    .btn {
         justify-content: center;
         text-align: center;
         align-items: center;
