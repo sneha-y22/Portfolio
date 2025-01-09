@@ -683,6 +683,7 @@ form textarea:hover {
         border-bottom-left-radius: 30% 15%;
         border-bottom-right-radius: 35% 20%;
         background-size: cover;
+        background-position-x: left;
     }
 
     nav {
@@ -720,7 +721,7 @@ form textarea:hover {
     }
 
     .hero_content {
-        width: 85%;
+        width: 100%;
         height: auto;
         padding: 20% 5%;
         text-align: center;
