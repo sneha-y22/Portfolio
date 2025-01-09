@@ -678,7 +678,7 @@ form textarea:hover {
 /* MQ section */
 @media (max-width: 900px) {
     header {
-        height: auto;
+        height: 90%;
         padding: 20px 5%;
         border-bottom-left-radius: 30% 15%;
         border-bottom-right-radius: 35% 20%;
