@@ -441,12 +441,12 @@ button:hover{
     margin-top: 35px;
 }
 .projects h1{
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .project_cont {
     width: 60%;
-    margin: 60px auto;
+    margin: 50px auto;
     position: relative;
 }
 
@@ -810,6 +810,7 @@ form textarea:hover {
     .project_cont {
         width: 85%;
         height: auto;
+        margin-top: 35px;
     }
     .projects .pre-btn,
     .projects .nxt-btn {
