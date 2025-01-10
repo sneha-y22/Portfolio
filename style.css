@@ -798,6 +798,9 @@ form textarea:hover {
     .about_image {
         width: 100%;
     }
+    .about_bottom {
+        margin-top: 25px;
+    }
     .education {
         padding: 8%;
     }
