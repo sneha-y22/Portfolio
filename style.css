@@ -675,9 +675,6 @@ form textarea:hover {
     background-color:#e9ebf8;
 }
 
-.footer i {
-    color: red;
-}
 
 /* MQ section */
 @media (max-width: 900px) {
@@ -822,7 +819,7 @@ form textarea:hover {
     .timeline_content {
         padding: 25px 42px;
     }
-    
+
     .project_cont {
         width: 85%;
         height: auto;
@@ -866,6 +863,11 @@ form textarea:hover {
     }
     .contact_left {
         text-align: center;
+    }
+    
+    .footer {
+        padding: 15px 0;
+        font-size: 10px;
     }
 }
 
