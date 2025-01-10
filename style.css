@@ -706,7 +706,7 @@ form textarea:hover {
         right: -100%;
         opacity: 0;
         width: 50%;
-        height: 65vh;
+        height: 70vh;
         background-color: rgb(241, 239, 239);
         transition: var(--transition);        
     }
