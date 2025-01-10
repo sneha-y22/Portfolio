@@ -126,7 +126,7 @@ nav{
 .social_icon{
     display: flex;
     align-items: center;
-    gap: 17px;
+    gap: 15px;
 }
 .social_icon a{
     width: 45px;
@@ -709,7 +709,7 @@ form textarea:hover {
         right: -100%;
         opacity: 0;
         width: 50%;
-        height: 85vh;
+        height: 75vh;
         background-color: rgb(241, 239, 239);
         transition: var(--transition);        
     }
@@ -785,6 +785,11 @@ form textarea:hover {
     .about_top {
         flex-direction: column;
     }
+    .about_small {
+        right: -14%;
+        width: 180px;
+        height: 115px;
+    }
     .exp_list {
         display: flex;
         flex-direction: column;
@@ -813,6 +818,11 @@ form textarea:hover {
     .timeline_dot {
         left: 0;
     }
+
+    .timeline_content {
+        padding: 25px 42px;
+    }
+    
     .project_cont {
         width: 85%;
         height: auto;
