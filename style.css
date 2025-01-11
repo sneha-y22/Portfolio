@@ -281,7 +281,7 @@ button:hover{
     width: 40%;
 }
 .skill_box:nth-child(7) .percent:after{
-    width: 85%;
+    width: 75%;
 }
 .skill_box:nth-child(8) .percent:after{
     width: 90%;
